@@ -1,0 +1,44 @@
+Detailed Results for DecisionTree
+================================
+
+Original Model Results:
+--------------------
+Accuracy: 0.6594
+Precision: 0.6660
+Recall: 0.6594
+F1 Score: 0.6588
+
+PCA 90% Model Results:
+--------------------
+Accuracy: 0.4229
+Precision: 0.4210
+Recall: 0.4229
+F1 Score: 0.4210
+
+PCA 95% Model Results:
+--------------------
+Accuracy: 0.4213
+Precision: 0.4199
+Recall: 0.4213
+F1 Score: 0.4198
+
+Performance Differences:
+--------------------
+PCA 90% - Original:
+Accuracy: -0.2365
+Precision: -0.2450
+Recall: -0.2365
+F1 Score: -0.2378
+
+PCA 95% - Original:
+Accuracy: -0.2381
+Precision: -0.2461
+Recall: -0.2381
+F1 Score: -0.2390
+
+PCA Information:
+--------------------
+90% variance components: 13
+95% variance components: 14
+90% variance explained: 0.9261
+95% variance explained: 0.9541

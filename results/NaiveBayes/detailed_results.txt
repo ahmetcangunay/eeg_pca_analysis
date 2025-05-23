@@ -1,0 +1,44 @@
+Detailed Results for NaiveBayes
+==============================
+
+Original Model Results:
+--------------------
+Accuracy: 0.1934
+Precision: 0.1611
+Recall: 0.1934
+F1 Score: 0.1350
+
+PCA 90% Model Results:
+--------------------
+Accuracy: 0.2069
+Precision: 0.1756
+Recall: 0.2069
+F1 Score: 0.1585
+
+PCA 95% Model Results:
+--------------------
+Accuracy: 0.2074
+Precision: 0.1762
+Recall: 0.2074
+F1 Score: 0.1605
+
+Performance Differences:
+--------------------
+PCA 90% - Original:
+Accuracy: 0.0135
+Precision: 0.0145
+Recall: 0.0135
+F1 Score: 0.0235
+
+PCA 95% - Original:
+Accuracy: 0.0140
+Precision: 0.0150
+Recall: 0.0140
+F1 Score: 0.0255
+
+PCA Information:
+--------------------
+90% variance components: 13
+95% variance components: 14
+90% variance explained: 0.9261
+95% variance explained: 0.9541

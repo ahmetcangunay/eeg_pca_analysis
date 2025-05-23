@@ -1,0 +1,44 @@
+Detailed Results for LogisticRegression
+======================================
+
+Original Model Results:
+--------------------
+Accuracy: 0.2176
+Precision: 0.1586
+Recall: 0.2176
+F1 Score: 0.1392
+
+PCA 90% Model Results:
+--------------------
+Accuracy: 0.2170
+Precision: 0.1567
+Recall: 0.2170
+F1 Score: 0.1384
+
+PCA 95% Model Results:
+--------------------
+Accuracy: 0.2167
+Precision: 0.1559
+Recall: 0.2167
+F1 Score: 0.1381
+
+Performance Differences:
+--------------------
+PCA 90% - Original:
+Accuracy: -0.0006
+Precision: -0.0019
+Recall: -0.0006
+F1 Score: -0.0008
+
+PCA 95% - Original:
+Accuracy: -0.0010
+Precision: -0.0027
+Recall: -0.0010
+F1 Score: -0.0010
+
+PCA Information:
+--------------------
+90% variance components: 13
+95% variance components: 14
+90% variance explained: 0.9261
+95% variance explained: 0.9541

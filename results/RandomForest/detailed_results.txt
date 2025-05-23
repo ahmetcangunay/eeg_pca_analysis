@@ -1,0 +1,44 @@
+Detailed Results for RandomForest
+================================
+
+Original Model Results:
+--------------------
+Accuracy: 0.6571
+Precision: 0.7117
+Recall: 0.6571
+F1 Score: 0.6596
+
+PCA 90% Model Results:
+--------------------
+Accuracy: 0.5037
+Precision: 0.5297
+Recall: 0.5037
+F1 Score: 0.4977
+
+PCA 95% Model Results:
+--------------------
+Accuracy: 0.5008
+Precision: 0.5312
+Recall: 0.5008
+F1 Score: 0.4943
+
+Performance Differences:
+--------------------
+PCA 90% - Original:
+Accuracy: -0.1534
+Precision: -0.1820
+Recall: -0.1534
+F1 Score: -0.1618
+
+PCA 95% - Original:
+Accuracy: -0.1563
+Precision: -0.1805
+Recall: -0.1563
+F1 Score: -0.1653
+
+PCA Information:
+--------------------
+90% variance components: 13
+95% variance components: 14
+90% variance explained: 0.9261
+95% variance explained: 0.9541

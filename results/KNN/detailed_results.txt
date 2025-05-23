@@ -1,0 +1,44 @@
+Detailed Results for KNN
+=======================
+
+Original Model Results:
+--------------------
+Accuracy: 0.1348
+Precision: 0.1048
+Recall: 0.1348
+F1 Score: 0.0864
+
+PCA 90% Model Results:
+--------------------
+Accuracy: 0.3311
+Precision: 0.3439
+Recall: 0.3311
+F1 Score: 0.3074
+
+PCA 95% Model Results:
+--------------------
+Accuracy: 0.3315
+Precision: 0.3433
+Recall: 0.3315
+F1 Score: 0.3070
+
+Performance Differences:
+--------------------
+PCA 90% - Original:
+Accuracy: 0.1962
+Precision: 0.2391
+Recall: 0.1962
+F1 Score: 0.2210
+
+PCA 95% - Original:
+Accuracy: 0.1966
+Precision: 0.2385
+Recall: 0.1966
+F1 Score: 0.2205
+
+PCA Information:
+--------------------
+90% variance components: 13
+95% variance components: 14
+90% variance explained: 0.9261
+95% variance explained: 0.9541

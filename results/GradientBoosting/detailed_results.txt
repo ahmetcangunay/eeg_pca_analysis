@@ -1,0 +1,44 @@
+Detailed Results for GradientBoosting
+====================================
+
+Original Model Results:
+--------------------
+Accuracy: 0.6243
+Precision: 0.6449
+Recall: 0.6243
+F1 Score: 0.6241
+
+PCA 90% Model Results:
+--------------------
+Accuracy: 0.3941
+Precision: 0.4015
+Recall: 0.3941
+F1 Score: 0.3839
+
+PCA 95% Model Results:
+--------------------
+Accuracy: 0.3940
+Precision: 0.4001
+Recall: 0.3940
+F1 Score: 0.3843
+
+Performance Differences:
+--------------------
+PCA 90% - Original:
+Accuracy: -0.2301
+Precision: -0.2435
+Recall: -0.2301
+F1 Score: -0.2402
+
+PCA 95% - Original:
+Accuracy: -0.2302
+Precision: -0.2448
+Recall: -0.2302
+F1 Score: -0.2398
+
+PCA Information:
+--------------------
+90% variance components: 13
+95% variance components: 14
+90% variance explained: 0.9261
+95% variance explained: 0.9541
